@@ -50,17 +50,163 @@ h1 {
 .topcontent {
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.topcontent-left, .topcontent-right {
+.topcontent-left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.topcontent-right {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .sign-up-topcontent {
-    color: #F9FAF8;
+    color: white;
     background-color: #3882F6;
+    width: 90px;
+    height: 30px;
+    border: 1px #3882F6;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.first-para {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-of-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-items: center;
+}
+
+.second-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-para {
+    text-align: center;
+    font-size: 18px;
+}
+
+.blue-boxes {
+    border: 3px solid #3882F6;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.third-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.third-para {
+    font-size: 22px;
+    text-align: end;
+}
+
+#thor-p {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 400px;
+}
+
+.forth-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.blue-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 75%;
+    height: 40%;
+}
+
+.left-container {
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 100px;
+}
+
+h4 {
+    font-size: 22px;
+    color: white;
+}
+
+.forth-para {
+    font-size: 14px;
+    color: white;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forth-signup {
+    color: white;
+    background-color: #3882F6;
+    width: 90px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-copyright {
+    color: #F9FAF8;
 }
